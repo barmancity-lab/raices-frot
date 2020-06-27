@@ -278,14 +278,7 @@
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line">
-                        <form action="/procesar-pago" method="POST">
-                            <script
-                             src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
-                             data-preference-id="89909518-3b52bf63-2d29-4724-ae27-0d2f26d06af7&p=448bd4504f87180bba17f98d833e178e">
-                            </script>
-                          </form>
-                    </div>
+                    <div class="divider-custom-line"></div>
                 </div>
                 <!-- About Section Content-->
                 <div class="row">
@@ -302,7 +295,7 @@
             <div class="container">
                 <!-- Contact Section Heading-->
                 <div class="text-center">
-                    <h2 class="page-section-heading text-secondary d-inline-block mb-0">CONTACT</h2>
+                    <h2 class="page-section-heading text-secondary d-inline-block mb-0">Donar/Contactarnos</h2>
                 </div>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
@@ -315,8 +308,15 @@
                     <div class="col-lg-4">
                         <div class="d-flex flex-column align-items-center">
                             <div class="icon-contact mb-3"><i class="fas fa-mobile-alt"></i></div>
-                            <div class="text-muted">Phone</div>
-                            <div class="lead font-weight-bold">(555) 555-5555</div>
+                            <div class="text-muted">Donar</div>
+                            <div class="lead font-weight-bold">
+                                <form action="/procesar-pago" method="POST">
+                                    <script
+                                     src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+                                     data-preference-id="89909518-3b52bf63-2d29-4724-ae27-0d2f26d06af7&p=448bd4504f87180bba17f98d833e178e">
+                                    </script>
+                                  </form>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
